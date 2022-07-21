@@ -1,0 +1,10 @@
+npx hardhat run --network rinkeby scripts/deploy.j
+(await ethers.provider.getBalance(accounts[0])).toString()
+accounts = await ethers.provider.listAccounts()
+npx hardhat run --network rinkeby scripts/deploy.js
+accounts = await ethers.provider.listAccounts()
+npx hardhat console --network rinkeby
+npm install --save-dev ethers
+accounts = await ethers.provider.listAccounts()
+(await ethers.provider.getBalance(accounts[0])).toString()
+accounts = await ethers.provider.listAccounts()
